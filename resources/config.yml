@@ -1,0 +1,20 @@
+enabled: true
+
+Sound-on-message: true
+
+# How much time passes between each message being sent, measured in seconds
+cooldown: 60
+
+# List of messages to be sent in the chat, you can use all kinds of colors using the & sign
+messages:
+  - 'Example1'
+  - '&cExample2'
+  - '&l&6Example3'
+# (LOWERCASE TAGS ONLY!!!!) A list of tags or special words after the use of which the response will be sent, each tag in the game begins with the # sign, for example "#spigot"
+tags:
+  - tag: spigot
+    messages:
+      - '&bLink to my spigotmc account&r https://www.spigotmc.org/members/altairyt.1831292/'
+  - tag: anotherexample
+    messages:
+     - '&5How are you?'

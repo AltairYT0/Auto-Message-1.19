@@ -1,0 +1,10 @@
+name: AutoMessage
+main: me.altair.automessage.AutoMessage
+version: 1.0
+author: AltairYT
+website: https://www.spigotmc.org/members/altairyt.1831292/
+commands:
+  automessage:
+    permission: automessage.manage
+    aliases:
+      - am
